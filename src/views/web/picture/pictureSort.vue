@@ -224,7 +224,7 @@ import {
   deletePictureSort,
   stickPictureSort,
 } from "@/api/web/pictureSort";
-import { getListByDictTypeList } from "@/api/web/sysDictData";
+// import { getListByDictTypeList } from "@/api/web/sysDictData";
 import CheckPhoto from "@/components/CheckPhoto";
 
 export default {

@@ -222,7 +222,7 @@ import {
 import { getPictureSortList, getPictureSortByUid } from "@/api/web/pictureSort";
 import { getToken } from "@/utils/auth";
 import PictureCropper from "@/components/PictureCropper";
-import Vue from "vue";
+// import Vue from "vue";
 
 export default {
   components: {
