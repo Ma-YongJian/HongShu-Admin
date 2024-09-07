@@ -160,7 +160,7 @@
           </template>
           <div class="body">
             <img
-              src="@/assets/images/pay.png"
+              src="@/assets/images/reward.png"
               alt="donate"
               style="width: 92%"
             />
