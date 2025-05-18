@@ -27,15 +27,17 @@
             type="primary"
             icon="Cloudy"
             plain
-            @click="goTarget('https://gitee.com/y_project/RuoYi-Vue')"
-            >访问码云</el-button
+            @click="goTarget('https://gitee.com/Maverick_Ma/hongshu')"
           >
+            访问码云
+          </el-button>
           <el-button
             icon="HomeFilled"
             plain
-            @click="goTarget('http://ruoyi.vip')"
-            >访问主页</el-button
+            @click="goTarget('https://gitee.com/Maverick_Ma/hongshu')"
           >
+            访问主页
+          </el-button>
         </p>
       </el-col>
 
@@ -106,24 +108,6 @@
             </h3>
           </div>
           <blockquote class="text-warning" style="font-size: 16px">
-            领取阿里云通用云产品1888优惠券
-            <br />
-            <el-link
-              href="https://www.aliyun.com/minisite/goods?source=5176.11533457&userCode=ojvsntx1"
-              type="primary"
-              target="_blank"
-              >☛☛ 点我进入 ☚☚</el-link
-            >
-            <br />
-            领取腾讯云通用云产品2860优惠券
-            <br />
-            <el-link
-              href="https://curl.qcloud.com/efTJbNyi"
-              type="primary"
-              target="_blank"
-              >☛☛ 点我进入 ☚☚</el-link
-            >
-            <br />
             阿里云服务器折扣区
             <br />
             <el-link
@@ -151,7 +135,7 @@
       </el-col>
 
       <!-- 捐赠支持 -->
-      <el-col :xs="24" :sm="24" :md="12" :lg="8">
+      <el-col :xs="24" :sm="24" :md="12" :lg="6">
         <el-card class="update-log">
           <template v-slot:header>
             <div class="clearfix">
@@ -160,7 +144,7 @@
           </template>
           <div class="body">
             <img
-              src="@/assets/images/reward.png"
+              src="@/assets/images/pay.png"
               alt="donate"
               style="width: 92%"
             />

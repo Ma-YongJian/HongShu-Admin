@@ -5,9 +5,9 @@
 </template>
 
 <script setup>
-const url = ref('http://doc.ruoyi.vip/ruoyi-vue');
+const url = ref("https://gitee.com/Maverick_Ma/hongshu");
 
 function goto() {
-  window.open(url.value)
+  window.open(url.value);
 }
 </script>

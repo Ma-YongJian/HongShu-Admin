@@ -111,10 +111,8 @@
           >导出</el-button
         >
       </el-col>
-      <right-toolbar
-        v-model:showSearch="showSearch"
-        @queryTable="getList"
-      ></right-toolbar>
+      <right-toolbar v-model:showSearch="showSearch" @queryTable="getList">
+      </right-toolbar>
     </el-row>
 
     <el-table

@@ -1,6 +1,6 @@
 <template>
   <a
-    href=""
+    href="https://gitee.com/Maverick_Ma/hongshu"
     target="_blank"
     class="github-corner"
     aria-label="View source on Github"

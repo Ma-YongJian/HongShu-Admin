@@ -261,14 +261,11 @@ const { queryParams, form, rules } = toRefs(data);
 function subjectList() {
   getSubjectList(queryParams.value).then((response) => {
     tableData.value = response.rows;
-    currentPage.value = 1;
-    pageSize.value = 20;
     total.value = response.total;
   });
 }
 
 function handleFind() {
-  currentPage.value = 1;
   subjectList();
 }
 
@@ -296,8 +293,8 @@ function checkAll() {
     chooseTitle.value = "全选";
   } else {
     selectUids.value = [];
-    tableData.value.forEach((picture) => {
-      selectUids.value.push(picture.uid);
+    tableData.value.forEach((album) => {
+      selectUids.value.push(album.id);
     });
     isCheckedAll.value = true;
     chooseTitle.value = "取消全选";

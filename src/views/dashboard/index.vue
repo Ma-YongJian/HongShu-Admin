@@ -96,7 +96,7 @@
         </div>
       </el-col>
 
-      <el-col :xs="24" :sm="24" :lg="8">
+      <!-- <el-col :xs="24" :sm="24" :lg="8">
         <div class="chart-wrapper">
           <PieChart
             v-if="showPieChart"
@@ -105,7 +105,7 @@
             :tagName="tagNameArray"
           />
         </div>
-      </el-col>
+      </el-col> -->
     </el-row>
   </div>
 </template>
@@ -213,7 +213,7 @@ async function fetchData() {
 
 const btnClick = (id) => {
   const routes = {
-    1: "/system/log/webLoginInfo",
+    1: "/loginlog/loginlog",
     2: "/member/member",
     3: "/message/comment",
     4: "/note/note",

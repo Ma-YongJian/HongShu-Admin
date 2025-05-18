@@ -5,9 +5,9 @@
 </template>
 
 <script setup>
-const url = ref('https://gitee.com/y_project/RuoYi-Vue');
+const url = ref("https://gitee.com/Maverick_Ma/hongshu");
 
 function goto() {
-  window.open(url.value)
+  window.open(url.value);
 }
 </script>
